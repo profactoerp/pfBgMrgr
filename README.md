@@ -54,3 +54,13 @@ pfBgMrgr.py
 * cannot write the PDF to standard out for piping - feel free to implement, can't be too hard ;)
 * does not understand if you mix up the order of the two or three files, expect funny results.
 * does not irrevocably merge a watermark, if you want to create something like that use other ways of PDF manipulating. The reversion of what pfBgMrgr.py should be pretty easy for one familiar with PDF.
+
+# What still has to be done ...
+ 
+* switch from optparse to argparse, as optparse is deprecated with Python 2.7
+* allow different base path for the doc
+* allow custom name for returned file
+
+# Known Issues
+
+None :)

@@ -16,11 +16,6 @@
 # along with pyBgMrgr.py. If not, see http://www.gnu.org/licenses/.
 #-------------------------------------------------------------------
 
-# ToDos: 
-# switch from optparse to argparse, as optparse is now deprecated
-# allow different base path for new doc
-# allow custom name for returned file
-
 import sys
 import os
 from optparse import OptionParser
