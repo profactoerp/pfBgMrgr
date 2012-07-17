@@ -133,7 +133,7 @@ Reading, merging and recompiling, and writing a PDF of many pages with possibly 
 def main():
 	'''parse through the options given, check for enough arguments given and initiate the main job with the Merge class above if everything looks ok at first glance.'''
 	usage = 'python pfBgMrgr.py [Options] PathToForeground.pdf PathToFirstPageBackground.pdf PathToSecondPageBAckground'
-	version = 'Version 1.0b'
+	version = 'Version 1.0'
 	parser = OptionParser(usage=usage)
 	parser.add_option("-v", "--verbose", action="store_true", dest="verbose", help="pfBgMrgr.py becomes verbose.")
 	parser.add_option("--version", action="store_true", dest="version", help="Print version of pfBgMrgr.py")
