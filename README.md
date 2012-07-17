@@ -4,7 +4,7 @@ pfBgMrgr is a CLI tool to merge a multipage document with one or two background 
 
 It has been designed with profacto CRM|ERP|PPS-software from extragroup GmbH (http://www.extragroup.de/profacto) in mind for OS X. 
 
-A typical scenario is sending a quote or invoice as a pdf file via email instead of hardcopy and have the same appearance as on the typical preprinted letter paper of 1-30 pages. 
+A typical scenario is sending a quote or invoice as a pdf file via email instead of hardcopy and have the same appearance as on the typical preprinted letter paper of 1-30 pages. The actual limit of possible pages is set by your hardware.
 
 # Requirements
 
