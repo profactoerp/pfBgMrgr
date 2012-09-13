@@ -45,7 +45,7 @@ class Merge:
 		if self.verbose:
 			print '''The resulting file has been saved at:
 %s''' % outDocPath
-		exit(0)
+		sys.exit(0)
 	
 	def pagewalker(self, inDocPath, firstBgPath, secondBgPath=False):
 		'''take the main doc and the background paths, check, wether there is a second one given or not and walk through the pages of the main document and initiate the merging page by page'''

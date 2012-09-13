@@ -1,2 +1,18 @@
 
 .DS_Store
+
+pyPdf/LICENSE
+
+pyPdf/__init__.py
+
+*.pyc
+
+pyPdf/filters.py
+
+pyPdf/generic.py
+
+pyPdf/pdf.py
+
+pyPdf/utils.py
+
+pyPdf/xmp.py
