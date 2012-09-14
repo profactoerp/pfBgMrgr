@@ -95,12 +95,14 @@ class Merge:
 pfBgMrgr_manual = '''# Introduction
 
 pfBgMrgr is a CLI tool to merge a multipage document with one or two background files as a digital substitute for preprinted letter paper.
-It is designed to be used with the profacto ERP-software from extragroup GmbH (extragroup.de) on the OS X platform. 
+It is designed to be used with the profacto ERP-software from extragroup GmbH (extragroup.de) on the OS X and Windows Version 6.1 or 6.2 platform. 
 
 ## Requirements
 
 In order to use it Python 2.7 is required, other versions of Python may work as well but are not tested or supported.
-In addition the pyPDF-module is required as well, which can easily be installed using "sudo easy_install pyPDF" from the OS X Terminal.
+In addition the pyPdf module is needed as well. Just place the module filder beside the pfBgMrgr.py file.
+
+Download from here: "https://github.com/mfenniak/pyPdf" or search on the web.
 
 # Usage
 
@@ -133,7 +135,7 @@ Reading, merging and recompiling, and writing a PDF of many pages with possibly 
 def main():
 	'''parse through the options given, check for enough arguments given and initiate the main job with the Merge class above if everything looks ok at first glance.'''
 	usage = 'python pfBgMrgr.py [Options] PathToForeground.pdf PathToFirstPageBackground.pdf PathToSecondPageBAckground'
-	version = 'Version 1.0'
+	version = 'Version 1.1'
 	parser = OptionParser(usage=usage)
 	parser.add_option("-v", "--verbose", action="store_true", dest="verbose", help="pfBgMrgr.py becomes verbose.")
 	parser.add_option("--version", action="store_true", dest="version", help="Print version of pfBgMrgr.py")
